@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "Parses a BEM file into a TypeScript type.",
 	"main": "dist/index.js",
-	"type": "module",
 	"scripts": {
 		"build": "tsc",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -26,6 +25,8 @@
 		"@types/node": "^20.6.5",
 		"bem-neon": "^1.0.0",
 		"meow": "^12.1.1",
+		"param-case": "^3.0.4",
+		"pascal-case": "^3.1.2",
 		"typescript": "^5.2.2"
 	},
 	"devDependencies": {
